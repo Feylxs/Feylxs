@@ -1,0 +1,10 @@
+<svg width="170" height="46" viewBox="0 0 170 46" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="2" y="2" width="166" height="42" rx="21" fill="#0A1930" stroke="#4CC9F0" stroke-width="2" filter="url(#glow)"/>
+  <text x="85" y="28" text-anchor="middle" font-family="'Courier New', monospace" font-weight="700" font-size="15" letter-spacing="1.5" fill="#ffffff">LINKEDIN</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050B1F"/>
+      <stop offset="50%" stop-color="#0A1930"/>
+      <stop offset="100%" stop-color="#0F2A4A"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4CC9F0"/>
+      <stop offset="50%" stop-color="#3A86FF"/>
+      <stop offset="100%" stop-color="#4CC9F0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="4" y="4" width="892" height="212" rx="16" fill="url(#bg)" stroke="url(#borderGrad)" stroke-width="2" filter="url(#glow)"/>
+
+  <g stroke="#4CC9F0" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.9">
+    <path d="M 24 44 L 24 24 L 44 24"/>
+    <path d="M 856 24 L 876 24 L 876 44"/>
+    <path d="M 24 176 L 24 196 L 44 196"/>
+    <path d="M 856 196 L 876 196 L 876 176"/>
+  </g>
+
+  <circle cx="120" cy="48" r="2" fill="#4CC9F0" opacity="0.5"/>
+  <circle cx="782" cy="58" r="2" fill="#4CC9F0" opacity="0.4"/>
+  <circle cx="700" cy="182" r="1.6" fill="#ffffff" opacity="0.3"/>
+  <circle cx="176" cy="172" r="1.6" fill="#ffffff" opacity="0.3"/>
+  <circle cx="450" cy="30" r="1.4" fill="#ffffff" opacity="0.25"/>
+
+  <text x="450" y="105" text-anchor="middle" font-family="'Courier New', monospace" font-weight="800" font-size="46" fill="#ffffff" filter="url(#softGlow)" letter-spacing="4">RAFIQ ZUHDI</text>
+
+  <text x="450" y="140" text-anchor="middle" font-family="'Courier New', monospace" font-weight="600" font-size="16" fill="#4CC9F0" letter-spacing="3">UI/UX DESIGNER • GRAPHIC DESIGNER</text>
+
+  <line x1="390" y1="158" x2="510" y2="158" stroke="#3A86FF" stroke-width="2" opacity="0.8"/>
+</svg>

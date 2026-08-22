@@ -1,0 +1,70 @@
+<svg width="900" height="380" viewBox="0 0 900 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050B1F"/>
+      <stop offset="50%" stop-color="#0A1930"/>
+      <stop offset="100%" stop-color="#0F2A4A"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4CC9F0"/>
+      <stop offset="50%" stop-color="#3A86FF"/>
+      <stop offset="100%" stop-color="#4CC9F0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="4" y="4" width="892" height="372" rx="16" fill="url(#bg)" stroke="url(#borderGrad)" stroke-width="2" filter="url(#glow)"/>
+
+  <g stroke="#4CC9F0" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.9">
+    <path d="M 24 44 L 24 24 L 44 24"/>
+    <path d="M 856 24 L 876 24 L 876 44"/>
+    <path d="M 24 336 L 24 356 L 44 356"/>
+    <path d="M 856 356 L 876 356 L 876 336"/>
+  </g>
+
+  <text x="450" y="58" text-anchor="middle" font-family="'Courier New', monospace" font-weight="800" font-size="32" fill="#ffffff" filter="url(#softGlow)" letter-spacing="5">TECH STACK</text>
+  <line x1="400" y1="76" x2="500" y2="76" stroke="#3A86FF" stroke-width="2" opacity="0.9"/>
+
+  <text x="450" y="118" text-anchor="middle" font-family="'Courier New', monospace" font-weight="700" font-size="17" fill="#4CC9F0" letter-spacing="4">LANGUAGES</text>
+  <line x1="385" y1="128" x2="515" y2="128" stroke="#4CC9F0" stroke-width="1.2" opacity="0.6"/>
+
+  <!-- language pills -->
+  <g font-family="'Courier New', monospace" font-weight="700" font-size="15" letter-spacing="1">
+    <rect x="140" y="148" width="90" height="44" rx="22" fill="#0A1930" stroke="#4CC9F0" stroke-width="1.6"/>
+    <text x="185" y="176" text-anchor="middle" fill="#ffffff">C++</text>
+
+    <rect x="250" y="148" width="110" height="44" rx="22" fill="#0A1930" stroke="#4CC9F0" stroke-width="1.6"/>
+    <text x="305" y="176" text-anchor="middle" fill="#ffffff">PYTHON</text>
+
+    <rect x="380" y="148" width="150" height="44" rx="22" fill="#0A1930" stroke="#4CC9F0" stroke-width="1.6"/>
+    <text x="455" y="176" text-anchor="middle" fill="#ffffff">JAVASCRIPT</text>
+
+    <rect x="550" y="148" width="100" height="44" rx="22" fill="#0A1930" stroke="#4CC9F0" stroke-width="1.6"/>
+    <text x="600" y="176" text-anchor="middle" fill="#ffffff">HTML5</text>
+
+    <rect x="670" y="148" width="90" height="44" rx="22" fill="#0A1930" stroke="#4CC9F0" stroke-width="1.6"/>
+    <text x="715" y="176" text-anchor="middle" fill="#ffffff">CSS3</text>
+  </g>
+
+  <text x="450" y="232" text-anchor="middle" font-family="'Courier New', monospace" font-weight="700" font-size="17" fill="#48CAE4" letter-spacing="4">HOSTING</text>
+  <line x1="385" y1="242" x2="515" y2="242" stroke="#48CAE4" stroke-width="1.2" opacity="0.6"/>
+
+  <!-- hosting pills -->
+  <g font-family="'Courier New', monospace" font-weight="700" font-size="15" letter-spacing="1">
+    <rect x="330" y="262" width="110" height="44" rx="22" fill="#0A1930" stroke="#0077B6" stroke-width="1.6"/>
+    <text x="385" y="290" text-anchor="middle" fill="#ffffff">VERCEL</text>
+
+    <rect x="460" y="262" width="110" height="44" rx="22" fill="#0A1930" stroke="#0077B6" stroke-width="1.6"/>
+    <text x="515" y="290" text-anchor="middle" fill="#ffffff">NETLIFY</text>
+  </g>
+
+  <circle cx="110" cy="70" r="2" fill="#4CC9F0" opacity="0.4"/>
+  <circle cx="790" cy="330" r="2" fill="#48CAE4" opacity="0.4"/>
+</svg>

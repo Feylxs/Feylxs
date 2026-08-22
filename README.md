@@ -1,45 +1,31 @@
+<div align="center">
 
-<!--
-**Feylxs/Feylxs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<img src="https://raw.githubusercontent.com/Feylxs/Feylxs/main/banner.svg" width="100%"/>
 
-Here are some ideas to get you started:
+<br/><br/>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<img src="https://raw.githubusercontent.com/Feylxs/Feylxs/main/connect.svg" width="100%"/>
 
-![Feyy](img/github-header-banner.png)
-<div data-importer="stats" align="center">
-  <img src="https://raw.githubusercontent.com/Feylxs/Feylxs/languages-output/languages.svg?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
-  <img src="https://streak-stats.demolab.com?user=Feylxs&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
+<br/>
+
+[![LinkedIn](https://raw.githubusercontent.com/Feylxs/Feylxs/main/linkedin.svg)](https://www.linkedin.com/fitra-prd)
+[![Instagram](https://raw.githubusercontent.com/Feylxs/Feylxs/main/instagram.svg)](https://instagram.com/username-instagram)
+
+<br/><br/>
+
+<img src="https://raw.githubusercontent.com/Feylxs/Feylxs/main/skills.svg" width="100%"/>
+
+<br/><br/>
+
+### 📊 Statistik Bahasa yang Sering Digunakan
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Feylxs&layout=compact&hide_border=true&bg_color=0D1B2A&title_color=4CC9F0&text_color=CAF0F8&icon_color=48CAE4" width="47%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Feylxs&show_icons=true&hide_border=true&bg_color=0D1B2A&title_color=4CC9F0&text_color=CAF0F8&icon_color=48CAE4" width="47%"/>
+
+<br/><br/>
+
+### 🎮 Arcade
+
+<img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Feylxs/Feylxs/pacman-output/pacman-contribution-graph.svg?game=pacman" width="100%">
+
 </div>
-
-###
-
-<div data-importer="techs" align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css logo"  />
-</div>
-
-###
-
-<picture data-importer="pacman">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Feylxs/Feylxs/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Feylxs/Feylxs/pacman-output/pacman-contribution-graph.svg?game=pacman">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Feylxs/Feylxs/pacman-output/pacman-contribution-graph.svg?game=pacman">
-</picture>
-
-###

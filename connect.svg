@@ -1,0 +1,21 @@
+<svg width="900" height="70" viewBox="0 0 900 70" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#050B1F"/>
+      <stop offset="50%" stop-color="#0F2A4A"/>
+      <stop offset="100%" stop-color="#050B1F"/>
+    </linearGradient>
+    <filter id="glow2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="4" y="4" width="892" height="62" rx="14" fill="url(#bg2)" stroke="#4CC9F0" stroke-width="2" filter="url(#glow2)"/>
+  <g stroke="#4CC9F0" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.9">
+    <path d="M 20 34 L 20 18 L 36 18"/>
+    <path d="M 864 18 L 880 18 L 880 34"/>
+    <path d="M 20 36 L 20 52 L 36 52"/>
+    <path d="M 864 52 L 880 52 L 880 36"/>
+  </g>
+  <text x="450" y="42" text-anchor="middle" font-family="'Courier New', monospace" font-weight="800" font-size="24" fill="#ffffff" filter="url(#glow2)" letter-spacing="4">CONNECT WITH ME</text>
+</svg>
