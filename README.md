@@ -4,7 +4,7 @@
 
 <img src="https://raw.githubusercontent.com/Feylxs/Feylxs/main/connect.svg" width="100%"/>
 
-[![LinkedIn](https://raw.githubusercontent.com/Feylxs/Feylxs/main/linkedin.svg)](https://www.linkedin.com/fitra-prd)
+[![LinkedIn](https://raw.githubusercontent.com/Feylxs/Feylxs/main/linkedin.svg)](https://www.linkedin.com/in/fitra-prd)
 [![Instagram](https://raw.githubusercontent.com/Feylxs/Feylxs/main/instagram.svg)](https://instagram.com/fellyonhart)
 
 <img src="https://raw.githubusercontent.com/Feylxs/Feylxs/main/skills.svg" width="100%"/>
